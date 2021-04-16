@@ -70,7 +70,8 @@ Probado en Ubuntu 16.04 LTS.
 
 # Resultado Final
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/46871300/97822536-b275dd00-1c8c-11eb-9027-fa8fbb496d20.gif)
+![2021-04-15 17-04-03_Trim_Trim](https://user-images.githubusercontent.com/46871300/115046633-af228680-9ea5-11eb-8975-ebd4f42bd6e9.gif)
+
 
 ## Contribuyendo 🖇️
 
