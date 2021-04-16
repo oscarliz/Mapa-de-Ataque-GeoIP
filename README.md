@@ -79,25 +79,35 @@ unzip static/flags.zip
 * Iniciar el servidor de mapas de ataque: sudo python3 AttackMapServer.py
 ```
 
-
 Acceda al servidor de mapas de ataque desde el navegador:
 
+```
 http://localhost:8888/ or http://127.0.0.1:8888/
+```
 
 Para acceder a través del navegador en otra computadora, use la IP externa de la máquina que ejecuta Attack MapServer.
 
 Edite la dirección IP en el archivo "/static/map.js" at "AttackMapServer" directorio:
 
+```
 var webSock = new WebSocket("ws:/127.0.0.1:8888/websocket");
 a, por ejemplo:
-
+```
+```
 var webSock = new WebSocket("ws:/192.168.1.100:8888/websocket");
+```
+
 Reinicie el servidor de mapas de ataque:
 
+```
 sudo python3 AttackMapServer.py
+```
+
 En la otra computadora, apunta el navegador a:
 
+```
 http://192.168.1.100:8888/
+```
 
 # Resultado Final
 
