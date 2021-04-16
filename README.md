@@ -55,9 +55,9 @@ Probado en Ubuntu 16.04 LTS.
 * Iniciar el Data Server: cd DataServer
                           sudo python3 DataServer.py
 ```
-* Start the Syslog Gen Script, inside DataServer directory:
+* Inicie el Syslog Gen Script, dentro del directorio DataServer:
 
-  * Open a new terminal tab (Ctrl+Shift+T, on Ubuntu).
+  * Abra una nueva pestaña de terminal (Ctrl + Shift + T, en Ubuntu).
 ```
 *     ./syslog-gen.py
       ./syslog-gen.sh
