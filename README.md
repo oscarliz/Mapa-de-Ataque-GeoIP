@@ -25,3 +25,26 @@ Este programa se basa completamente en syslog, y debido a que todos los disposit
 Utilice syslog-gen.py o syslog-gen.sh para simular tráfico ficticio "listo para usar".
 
 ###### IMPORTANTE: Recuerde, este código solo se ejecutará correctamente en un entorno de producción después de personalizar las funciones de análisis. La función de análisis predeterminada solo se escribe para analizar el tráfico ./syslog-gen.sh.
+
+## Contribuyendo 🖇️
+
+Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
+
+## Autor ✒️
+
+_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
+
+* **Oscar Encarnacion Liz** - *Trabajo Inicial* - [oscarliz](http://oscarliz.herokuapp.com/
+
+## Licencia 📄
+
+Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+
+## Expresiones de Gratitud 🎁
+
+* Comenta a otros sobre este proyecto 📢
+* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
+* Da las gracias públicamente 🤓.
+* etc.
+
+---
