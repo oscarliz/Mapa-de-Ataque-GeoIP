@@ -1,7 +1,7 @@
 # 🌎Mapa de ataque GeoIP🌎
 
 Visualización de mapas de ataques GeoIP de seguridad cibernética
-Este visualizador de mapas de ataques geoip se desarrolló para mostrar los ataques de red en su organización en tiempo real. El servidor de datos sigue un archivo syslog y analiza la IP de origen, la IP de destino, el puerto de origen y el puerto de destino. Los protocolos se determinan a través de puertos comunes y las visualizaciones varían en color según el tipo de protocolo. HAGA CLIC AQUÍ para ver un video de demostración. Este proyecto no sería posible si no fuera por Sam Cappella, quien creó un visualizador de tráfico de red de competencia de ciberdefensa para el Concurso de Ciberdefensa de Palmetto 2015. Usé principalmente su código como referencia, pero tomé prestadas algunas funciones mientras creaba el servidor de visualización y los aspectos visuales de la aplicación web. También me gustaría agradecer especialmente a Dylan Madisetti por darme consejos sobre ciertos aspectos de mi implementación.
+Este visualizador de mapas de ataques geoip se desarrolló para mostrar los ataques de red en su organización en tiempo real. El servidor de datos sigue un archivo syslog y analiza la IP de origen, la IP de destino, el puerto de origen y el puerto de destino. Los protocolos se determinan a través de puertos comunes y las visualizaciones varían en color según el tipo de protocolo. Este proyecto no sería posible si no fuera por Sam Cappella, quien creó un visualizador de tráfico de red de competencia de ciberdefensa para el Concurso de Ciberdefensa de Palmetto 2015. Usé principalmente su código como referencia, pero tomé prestadas algunas funciones mientras creaba el servidor de visualización y los aspectos visuales de la aplicación web.
 
 # 🔥Importante🔥
 
@@ -55,11 +55,12 @@ Probado en Ubuntu 16.04 LTS.
 * Iniciar el Data Server: cd DataServer
                           sudo python3 DataServer.py
 ```
-* Inicie el Syslog Gen Script, dentro del directorio DataServer:
 
-  * Abra una nueva pestaña de terminal (Ctrl + Shift + T, en Ubuntu).
 ```
-*     ./syslog-gen.py
+* Inicie el Syslog Gen Script, dentro del directorio DataServer: 
+   * Abra una nueva pestaña de terminal (Ctrl + Shift + T, en Ubuntu). 
+   
+      ./syslog-gen.py
       ./syslog-gen.sh
 ```
 ```
@@ -68,12 +69,12 @@ Probado en Ubuntu 16.04 LTS.
                                     cd ..
 ```
 
-* Configura el Servidor de Mapa de Ataque, extrae las banderas en el lugar correcto:
-
-  * Abra una nueva pestaña de terminal (Ctrl + Shift + T, en Ubuntu).
 ```
-cd AttackMapServer/
-unzip static/flags.zip
+* Configura el Servidor de Mapa de Ataque, extrae las banderas en el lugar correcto:
+  * Abra una nueva pestaña de terminal (Ctrl + Shift + T, en Ubuntu).
+  
+    cd AttackMapServer/
+    unzip static/flags.zip
 ```
 ```
 * Iniciar el servidor de mapas de ataque: sudo python3 AttackMapServer.py
@@ -82,7 +83,7 @@ unzip static/flags.zip
 Acceda al servidor de mapas de ataque desde el navegador:
 
 ```
-http://localhost:8888/ or http://127.0.0.1:8888/
+http://localhost:8888/ or http://127.0.0.1:8888/ or http://IP:8888/
 ```
 
 Para acceder a través del navegador en otra computadora, use la IP externa de la máquina que ejecuta Attack MapServer.
@@ -106,7 +107,7 @@ sudo python3 AttackMapServer.py
 En la otra computadora, apunta el navegador a:
 
 ```
-http://192.168.1.100:8888/
+http://IP:8888/
 ```
 
 # Resultado Finalnota🚀
