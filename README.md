@@ -26,6 +26,48 @@ Utilice syslog-gen.py o syslog-gen.sh para simular tráfico ficticio "listo para
 
 ###### IMPORTANTE: Recuerde, este código solo se ejecutará correctamente en un entorno de producción después de personalizar las funciones de análisis. La función de análisis predeterminada solo se escribe para analizar el tráfico ./syslog-gen.sh.
 
+# Errores, comentarios y preguntas
+
+Si encuentra algún error o error, hágamelo saber. Las preguntas y comentarios también son bienvenidos, y se pueden enviar a mcmay.web@gmail.com, o abrir un problema en este repositorio.
+
+# Implementacion
+Probado en Ubuntu 16.04 LTS.
+
+
+```
+* Clone el repositorio: git clone https://github.com/matthewclarkmay/geoip-attack-map.git
+```
+```
+* Instala Dependencias: sudo apt install python3-pip redis-server
+```
+```
+* Instala los requerimientos de python: sudo pip3 install -U -r requirements.txt
+```
+```
+* Iniciar el servidor: redis-server
+```
+```
+* Configuracion del Data Server DB: cd DataServerDB
+                                    ./db-dl.sh
+                                    cd ..
+```
+```
+* Iniciar el Data Server: cd DataServer
+                          sudo python3 DataServer.py
+```
+* Start the Syslog Gen Script, inside DataServer directory:
+
+  * Open a new terminal tab (Ctrl+Shift+T, on Ubuntu).
+```
+*     ./syslog-gen.py
+      ./syslog-gen.sh
+```
+```
+* Configuracion del Data Server DB: cd DataServerDB
+                                    ./db-dl.sh
+                                    cd ..
+```
+
 ## Contribuyendo 🖇️
 
 Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
