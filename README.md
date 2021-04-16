@@ -28,7 +28,7 @@ Utilice syslog-gen.py o syslog-gen.sh para simular tráfico ficticio "listo para
 
 # Errores, comentarios y preguntas
 
-Si encuentra algún error o error, hágamelo saber. Las preguntas y comentarios también son bienvenidos, y se pueden enviar a mcmay.web@gmail.com, o abrir un problema en este repositorio.
+Si encuentra algún error o error, hágamelo saber. Las preguntas y comentarios también son bienvenidos, y se pueden enviar a oscarliz2162@gmail.com, o abrir un problema en este repositorio.
 
 # Implementacion
 Probado en Ubuntu 16.04 LTS.
