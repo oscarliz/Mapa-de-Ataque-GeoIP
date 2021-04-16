@@ -68,15 +68,18 @@ Probado en Ubuntu 16.04 LTS.
                                     cd ..
 ```
 
-Configure the Attack Map Server, extract the flags to the right place:
+* Configura el Servidor de Mapa de Ataque, extrae las banderas en el lugar correcto:
 
-Open a new terminal tab (Ctrl+Shift+T, on Ubuntu).
-
+  * Abra una nueva pestaña de terminal (Ctrl + Shift + T, en Ubuntu).
+```
 cd AttackMapServer/
 unzip static/flags.zip
-Start the Attack Map Server:
+```
+```
+* Iniciar el servidor de mapas de ataque: sudo python3 AttackMapServer.py
+```
 
-sudo python3 AttackMapServer.py
+
 Access the Attack Map Server from browser:
 
 http://localhost:8888/ or http://127.0.0.1:8888/
