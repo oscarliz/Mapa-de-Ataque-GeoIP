@@ -68,6 +68,34 @@ Probado en Ubuntu 16.04 LTS.
                                     cd ..
 ```
 
+Configure the Attack Map Server, extract the flags to the right place:
+
+Open a new terminal tab (Ctrl+Shift+T, on Ubuntu).
+
+cd AttackMapServer/
+unzip static/flags.zip
+Start the Attack Map Server:
+
+sudo python3 AttackMapServer.py
+Access the Attack Map Server from browser:
+
+http://localhost:8888/ or http://127.0.0.1:8888/
+
+To access via browser on another computer, use the external IP of the machine running the AttackMapServer.
+
+Edit the IP Address in the file "/static/map.js" at "AttackMapServer" directory. From:
+
+var webSock = new WebSocket("ws:/127.0.0.1:8888/websocket");
+To, for example:
+
+var webSock = new WebSocket("ws:/192.168.1.100:8888/websocket");
+Restart the Attack Map Server:
+
+sudo python3 AttackMapServer.py
+On the other computer, points the browser to:
+
+http://192.168.1.100:8888/
+
 # Resultado Final
 
 ![2021-04-15 17-04-03_Trim_Trim](https://user-images.githubusercontent.com/46871300/115046633-af228680-9ea5-11eb-8975-ebd4f42bd6e9.gif)
