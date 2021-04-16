@@ -80,22 +80,22 @@ unzip static/flags.zip
 ```
 
 
-Access the Attack Map Server from browser:
+Acceda al servidor de mapas de ataque desde el navegador:
 
 http://localhost:8888/ or http://127.0.0.1:8888/
 
-To access via browser on another computer, use the external IP of the machine running the AttackMapServer.
+Para acceder a través del navegador en otra computadora, use la IP externa de la máquina que ejecuta Attack MapServer.
 
-Edit the IP Address in the file "/static/map.js" at "AttackMapServer" directory. From:
+Edite la dirección IP en el archivo "/static/map.js" at "AttackMapServer" directorio:
 
 var webSock = new WebSocket("ws:/127.0.0.1:8888/websocket");
-To, for example:
+a, por ejemplo:
 
 var webSock = new WebSocket("ws:/192.168.1.100:8888/websocket");
-Restart the Attack Map Server:
+Reinicie el servidor de mapas de ataque:
 
 sudo python3 AttackMapServer.py
-On the other computer, points the browser to:
+En la otra computadora, apunta el navegador a:
 
 http://192.168.1.100:8888/
 
