@@ -68,6 +68,10 @@ Probado en Ubuntu 16.04 LTS.
                                     cd ..
 ```
 
+# Resultado Final
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/46871300/97822536-b275dd00-1c8c-11eb-9027-fa8fbb496d20.gif)
+
 ## Contribuyendo 🖇️
 
 Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
