@@ -109,7 +109,7 @@ En la otra computadora, apunta el navegador a:
 http://192.168.1.100:8888/
 ```
 
-# Resultado Final
+# Resultado Finalnota🚀
 
 ![2021-04-15 17-04-03_Trim_Trim](https://user-images.githubusercontent.com/46871300/115046633-af228680-9ea5-11eb-8975-ebd4f42bd6e9.gif)
 
