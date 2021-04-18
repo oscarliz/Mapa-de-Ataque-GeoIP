@@ -83,7 +83,7 @@ Probado en Ubuntu 16.04 LTS.
 Acceda al servidor de mapas de ataque desde el navegador:
 
 ```
-http://localhost:8888/ or http://127.0.0.1:8888/ or http://IP:8888/
+[http://localhost:8888/](http://localhost:8888/) or [http://127.0.0.1:8888/](http://127.0.0.1:8888/)
 ```
 
 Para acceder a través del navegador en otra computadora, use la IP externa de la máquina que ejecuta Attack MapServer.
